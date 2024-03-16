@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="steps.searchProducts">
+        <methods>
+          <include name="i_click_on_the_search_button"/>
+          <include name="i_enter_the_in_the_search_bars"/>
+          <include name="i_can_see_the_search_result_successfully"/>
+        </methods>
+      </class> <!-- steps.searchProducts -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
